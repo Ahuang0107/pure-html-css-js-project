@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <style>
+        * {
+            border: 1px red solid;
+        }
+
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            flex: 0 0 80px;
+            overflow: hidden;
+        }
+
+        main {
+            flex: 1 1 auto;
+        }
+
+        header .logo {
+            float: left;
+            height: 100%;
+            width: 150px;
+        }
+
+        header .nav {
+            float: left;
+            height: 100%;
+            width: 150px;
+        }
+
+        header .icon-button {
+            float: right;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+        }
+
+        header .avatar {
+            float: right;
+            height: 100%;
+            width: 80px;
+        }
+
+        div.icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+        }
+
+        header .search {
+            float: right;
+            height: 100%;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">logo</div>
+    <div class="nav">nav</div>
+    <div class="avatar">avatar</div>
+    <div class="icon-button">
+        <div class="icon">icon</div>
+        <div class="icon">icon</div>
+        <div class="icon">icon</div>
+        <div class="icon">icon</div>
+    </div>
+    <div class="search">search</div>
+</header>
+<main></main>
+</body>
+</html>

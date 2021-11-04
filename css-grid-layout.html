@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei Light", sans-serif;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        :root {
+
+        }
+
+        header {
+            width: 100vw;
+            height: 80px;
+            position: relative;
+            z-index: 200;
+            background-color: black;
+        }
+
+        main {
+            width: 100vw;
+            display: grid;
+            position: absolute;
+            top: 80px;
+            bottom: 0;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<header>header</header>
+<main>main</main>
+</body>
+</html>
